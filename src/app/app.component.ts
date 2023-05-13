@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'practica1';
+
+  public informacionDeMetodoApp(nombreAMostrar:string) {
+
+    console.log(nombreAMostrar);
+    
+
+  }
+
+
 }
